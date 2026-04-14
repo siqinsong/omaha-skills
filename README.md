@@ -48,4 +48,22 @@ claude skill install ./omaha-research-partner.skill
 
 ---
 
+## 文件结构
+
+```
+omaha-skills/
+├── README.md
+├── omaha-course-tutor/
+│   └── SKILL.md          ← 📚 课程阶段 AI 助教
+├── omaha-report-coach/
+│   └── SKILL.md          ← 🎓 毕业报告写作教练
+├── omaha-research-partner/
+│   └── SKILL.md          ← 🔍 俱乐部研究伙伴
+├── omaha-course-tutor.skill
+├── omaha-report-coach.skill
+└── omaha-research-partner.skill
+```
+
+---
+
 *奥马哈价值投资训练营 · 2026*
