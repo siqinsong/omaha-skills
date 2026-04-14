@@ -1,7 +1,6 @@
 ---
 name: omaha-report-coach
 description: 奥马哈价值投资训练营毕业报告 AI 写作教练。基于官方报告要求（四部分结构+五不要原则），辅导学员撰写毕业报告初稿、诊断逻辑漏洞、检查五不要违规、进行模拟答辩追问。
-compatibility: all
 metadata:
   openclaw:
     emoji: 🎓

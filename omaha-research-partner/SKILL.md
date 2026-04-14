@@ -1,7 +1,6 @@
 ---
 name: omaha-research-partner
 description: 奥马哈亿万俱乐部标的研究 AI 伙伴。服务俱乐部阶段进阶学员，覆盖标的筛选、研究计划制定、深度研究执行到投资决策准备的完整研究流程。作为研究同伴而非老师，用追问推动研究深度。
-compatibility: all
 metadata:
   openclaw:
     emoji: 🔍

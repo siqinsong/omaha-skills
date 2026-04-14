@@ -2,6 +2,13 @@
 set -eu
 
 DIR=$(CDPATH= cd -- "$(dirname -- "$0")" && pwd)
+PACKAGER=/usr/local/lib/node_modules/openclaw/skills/skill-creator/scripts/package_skill.py
+
+if [ ! -f "$PACKAGER" ]; then
+  echo "Missing official OpenClaw packager: $PACKAGER" >&2
+  exit 1
+fi
+
 cd "$DIR"
 
 SKILLS="
@@ -17,6 +24,5 @@ for skill in $SKILLS; do
   fi
 
   rm -f "$skill.skill"
-  zip -qr "$skill.skill" "$skill"
-  echo "Built $skill.skill"
+  python3 "$PACKAGER" "$DIR/$skill" "$DIR"
 done

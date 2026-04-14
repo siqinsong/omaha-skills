@@ -1,7 +1,6 @@
 ---
 name: omaha-course-tutor
 description: 奥马哈价值投资训练营课程助教。辅导一至四阶段学员学习巴菲特股东信、ROE分析、DCF估值、多元思维模型与护城河分析。用苏格拉底式追问引导思考，不代替学员得出结论。
-compatibility: all
 metadata:
   openclaw:
     emoji: 📚
