@@ -48,11 +48,24 @@ claude skill install ./omaha-research-partner.skill
 
 ---
 
+## 重新打包
+
+修改任一 `SKILL.md` 后，先重新生成 `.skill` 包再上传：
+
+```bash
+./build_skill_packages.sh
+```
+
+`push_to_github.sh` 已经会自动执行这一步。
+
+---
+
 ## 文件结构
 
 ```
 omaha-skills/
 ├── README.md
+├── build_skill_packages.sh
 ├── omaha-course-tutor/
 │   └── SKILL.md          ← 📚 课程阶段 AI 助教
 ├── omaha-report-coach/
