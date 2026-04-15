@@ -13,6 +13,7 @@ cd "$DIR"
 
 SKILLS="
 omaha-course-tutor
+omaha-fund-tutor
 omaha-report-coach
 omaha-research-partner
 "
